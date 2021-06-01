@@ -11,10 +11,10 @@ case $security in
     echo "Change computer name"
     open -b com.apple.systempreferences /System/Library/PreferencePanes/SharingPref.prefPane
 
-    read -r "Ready for FireVault? [Y/n]" firevault
-    case $firevault in
+    read -r "Ready for FileVault? [Y/n]" filevault
+    case $filevault in
       '' | [Yy]* )
-        open "x-apple.systempreferences:com.apple.preference.security?FireVault"
+        open "x-apple.systempreferences:com.apple.preference.security?FileVault"
     esac
 
     read -r "How about Firewall? [Y/n]" firewall
