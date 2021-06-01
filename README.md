@@ -11,8 +11,11 @@ Simply execute next commands in terminal and write password when necessary.
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-/bin/bash -c "$(https://raw.githubusercontent.com/ezitisitis/office-device-setup/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ezitisitis/office-device-setup/master/install.sh)"
 ```
+
+First command will install brew.
+Second one will run cask install through brew.
 
 ## List of software installed
 
