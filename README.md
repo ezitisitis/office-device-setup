@@ -7,9 +7,10 @@ Basic software setup for new macOS devices.
 
 ## Install
 
-Simply execute next command in terminal and write password when necessary.
+Simply execute next commands in terminal and write password when necessary.
 
 ```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 /bin/bash -c "$(https://raw.githubusercontent.com/ezitisitis/office-device-setup/master/install.sh)"
 ```
 
