@@ -4,6 +4,7 @@ brew install --cask slack
 brew install --cask google-chrome
 brew install --cask google-drive
 brew install --cask microsoft-office
+brew install --cask zoom
 
 read -r -p 'Do you want add some setting changes or security? [Y/n]' security
 case $security in
