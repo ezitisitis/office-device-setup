@@ -24,4 +24,5 @@ Second one will run cask install through brew.
 3. Microsoft Office
 4. Google Drive
 5. Google Chrome
+6. Zoom
 
