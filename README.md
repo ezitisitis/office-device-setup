@@ -26,3 +26,7 @@ Second one will run cask install through brew.
 5. Google Chrome
 6. Zoom
 
+## Credits
+
+- [Marks Bogdanovs](https://www.ezitisitis.com)
+
